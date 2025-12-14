@@ -11,5 +11,11 @@ namespace Quiz05Practice___Methods
         {
 
         }
+
+        private void q3Button_Click(object sender, EventArgs e)
+        {
+          
+                
+                }
     }
 }

@@ -38,9 +38,9 @@
             q3Button = new Button();
             label5 = new Label();
             label6 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            aBox = new TextBox();
+            bBox = new TextBox();
+            cBox = new TextBox();
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
@@ -112,6 +112,7 @@
             q3Button.TabIndex = 9;
             q3Button.Text = "Code Me!";
             q3Button.UseVisualStyleBackColor = false;
+            q3Button.Click += q3Button_Click;
             // 
             // label5
             // 
@@ -131,26 +132,26 @@
             label6.TabIndex = 7;
             label6.Text = "Q03 - creating a method that will return a value to the main program.  ICS3U ONLY!  (5 marks)";
             // 
-            // textBox1
+            // aBox
             // 
-            textBox1.Location = new Point(493, 338);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 26);
-            textBox1.TabIndex = 10;
+            aBox.Location = new Point(493, 338);
+            aBox.Name = "aBox";
+            aBox.Size = new Size(100, 26);
+            aBox.TabIndex = 10;
             // 
-            // textBox2
+            // bBox
             // 
-            textBox2.Location = new Point(620, 338);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 26);
-            textBox2.TabIndex = 11;
+            bBox.Location = new Point(620, 338);
+            bBox.Name = "bBox";
+            bBox.Size = new Size(100, 26);
+            bBox.TabIndex = 11;
             // 
-            // textBox3
+            // cBox
             // 
-            textBox3.Location = new Point(743, 338);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 26);
-            textBox3.TabIndex = 12;
+            cBox.Location = new Point(743, 338);
+            cBox.Name = "cBox";
+            cBox.Size = new Size(100, 26);
+            cBox.TabIndex = 12;
             // 
             // label7
             // 
@@ -203,9 +204,9 @@
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(cBox);
+            Controls.Add(bBox);
+            Controls.Add(aBox);
             Controls.Add(q3Button);
             Controls.Add(label5);
             Controls.Add(label6);
@@ -218,7 +219,7 @@
             Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             ForeColor = Color.Green;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Quiz 05 Methods Practice";
             Load += Form1_Load;
@@ -238,9 +239,9 @@
         private Button q3Button;
         private Label label5;
         private Label label6;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox aBox;
+        private TextBox bBox;
+        private TextBox cBox;
         private Label label7;
         private Label label8;
         private Label label9;

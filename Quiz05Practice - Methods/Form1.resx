@@ -121,7 +121,7 @@
     <value>When the user hits the button, a method called sumNumbers() will be called upon.  You will write sumNumbers()!.  The purpose of this method will be to add up all the numbers from 1 to 10 and output the result in the label.</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>The user will enter the three coefficients from the quadratic formula (a,b, and c).  When the button is hit, the coefficients will be sent to the method ‘quadForm(double a, double b, double c)’ which will calculate and return the two solutions to the main program.  From the main program (q3Button), the values will be output to the outputLabel as part of a sentence (ie “The two roots are 3.0 and 7.6”).</value>
+    <value>The user will enter the three coefficients from the quadratic formula (a,b, and c).  When the button is hit, the coefficients will be sent to the method ‘quadForm(double a, double b, double c)’ which will calculate and return the larger solution to the main program.  From the main program (q3Button), the values will be output to the outputLabel as part of a sentence (ie “The larger root is 5.6")</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
